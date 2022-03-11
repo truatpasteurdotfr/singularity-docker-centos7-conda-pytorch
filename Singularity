@@ -24,7 +24,7 @@ curl -qsSLkO https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.
 # https://pytorch.org/get-started/locally/
 PATH=/opt/miniconda3/bin:$PATH
 export PATH
-/opt/miniconda3/bin/conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+/opt/miniconda3/bin/conda install pytorch torchvision cudatoolkit=11.3 -c pytorch
 
 %environment
 PATH=/opt/miniconda3/bin:$PATH
